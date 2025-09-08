@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<title>Marine Animals</title>
+
+</head>
+
+
+
+<body>
+
+<!--Your HTML tags will start here-->
+
+
+<nav>
+
+<a href="index.html">Homepage</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="jellyfish.html">Jellyfish Page</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="sharks.html">Sharks Page</a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+</nav>
+
+
+ <h1>Jellyfish</h1>
+
+<p>Jellyfish have survived for over 500 million years, making them more ancient than the dinosaurs.
+Today these otherworldly creatures can be found around the world, from coastal shallows to the ocean deeps.
+Jellyfish are invertebrates animals that don’t have a backbone and belong to a group called Cnidaria. Some of their closest relatives include colourful corals and anemones.</h3>
+
+<h2>Do jellyfish have brains?</h2>
+
+<p>jellyfish don’t have bones, brains, hearts, teeth or blood.
+However, what they do have is a network of nerves called a nerve net. This allows them to process information including light levels, temperature and chemical changes in the water around them.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #66b6e1;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #000000;
+    }
+
+    form {
+      background-color: #0476e8;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      box-shadow: 0 0 10px rgba(0, 102, 204, 0.2);
+    }
+
+    label, select, textarea {
+      display: block;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+
+    fieldset {
+      border: 1px solid #b3d9ff;
+      padding: 10px;
+      margin-bottom: 15px;
+    }
+
+    legend {
+      font-weight: bold;
+      color: #005580;
+    }
+
+    input[type="submit"] {
+      background-color: #3399ff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    input[type="reset"] {
+      background-color: #66ccff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #007acc;
+    }
+
+    input[type="reset"]:hover {
+      background-color: #33bbff;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Information Form</h1>
+  <form action="#" method="post">
+
+    <!-- Dropdown -->
+    <label for="species">Select a Jellyfish Species:</label>
+    <select name="species" id="species" required>
+      <option value="">-- Please choose one --</option>
+      <option value="moon">Moon Jellyfish</option>
+      <option value="lion">Lion's Mane Jellyfish</option>
+      <option value="box">Box Jellyfish</option>
+      <option value="blue">Blue Blubber Jellyfish</option>
+    </select>
+
+    <!-- Radio Buttons -->
+    <fieldset>
+      <legend>Have you ever seen a jellyfish in the wild?</legend>
+      <label><input type="radio" name="seen" value="yes" required> Yes</label>
+      <label><input type="radio" name="seen" value="no"> No</label>
+      <label><input type="radio" name="seen" value="not_sure"> Not Sure</label>
+    </fieldset>
+
+    <!-- Comment Box -->
+    <label for="comments">Your Comments or Experience:</label>
+    <textarea name="comments" id="comments" rows="5" placeholder="Write your thoughts here..."></textarea>
+
+    <!-- Buttons -->
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+  </form>
+
+</body>
+
+
+
+
+
+<!--Your HTML tags will end here-->
+
+</body>
+
+</html>
